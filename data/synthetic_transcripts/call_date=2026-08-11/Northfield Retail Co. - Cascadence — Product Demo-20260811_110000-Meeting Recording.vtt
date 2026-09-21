@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.571
+<v Devon Brooks>Thanks for making time. I set up a sandbox that mirrors what you described — a POS export connector feeding into a warehouse table, running on a nightly schedule. Let me share my screen.</v>
+
+00:00:15.271 --> 00:00:16.557
+<v Priya Nair>Great, go ahead.</v>
+
+00:00:17.257 --> 00:00:34.400
+<v Devon Brooks>So here's the pipeline canvas. Each box is a step — extract from the POS SFTP, validate schema, load into the warehouse. If any step fails, Flow retries automatically with backoff, and after three failed attempts it fires an alert.</v>
+
+00:00:35.100 --> 00:00:37.243
+<v Wes Coleman>Where does the alert go?</v>
+
+00:00:37.943 --> 00:00:47.371
+<v Devon Brooks>Configurable — Slack channel, email distribution list, PagerDuty, whatever you want. Let me trigger a failure so you can see it live.</v>
+
+00:00:48.071 --> 00:01:01.786
+<v Devon Brooks>There — you can see the alert landed in the demo Slack channel within about four seconds of the failure, with the error message and a link straight to the failed run.</v>
+
+00:01:02.486 --> 00:01:06.771
+<v Wes Coleman>That alone would've saved us from three incidents last month.</v>
+
+00:01:07.471 --> 00:01:19.043
+<v Priya Nair>This is exactly the visibility we're missing. A couple of questions — do you have a SOC2 report we can review, and where is data actually hosted?</v>
+
+00:01:19.743 --> 00:01:37.314
+<v Devon Brooks>Yes, we're SOC2 Type II audited annually, and I can get you the current report under NDA today. On hosting, we run on AWS, and for customers who need it, we offer a US-only region pin so nothing leaves domestic infrastructure.</v>
+
+00:01:38.014 --> 00:01:49.586
+<v Priya Nair>That covers our compliance team's usual first questions. What about historical data — can we backfill from our existing exports, or does this only work going forward?</v>
+
+00:01:50.286 --> 00:02:00.143
+<v Devon Brooks>We can backfill. Typically we'd import the last 12 to 24 months of your CSV exports during onboarding so your warehouse has continuity.</v>
+
+00:02:00.843 --> 00:02:05.129
+<v Wes Coleman>How much of the connector configuration is code versus point-and-click?</v>
+
+00:02:05.829 --> 00:02:18.257
+<v Devon Brooks>Both are supported — you can build visually like I just did, or define pipelines as code and check them into your repo if your team prefers that workflow.</v>
+
+00:02:18.957 --> 00:02:30.529
+<v Priya Nair>Okay, I'm sold on the technical fit. Jordan, can you get us pricing? I'd want to see options for a standard implementation versus anything with dedicated support.</v>
+
+00:02:31.229 --> 00:02:45.371
+<v Jordan Ruiz>Absolutely, I'll put together a proposal this week. Given your timeline before October, I'd also suggest we loop in your procurement lead sooner rather than later so contract review doesn't become the bottleneck.</v>
+
+00:02:46.071 --> 00:02:50.357
+<v Priya Nair>Agreed, I'll bring Greg Hall in for the next call.</v>
+
+00:02:51.057 --> 00:03:02.629
+<v Jordan Ruiz>Sounds good. I'll send the SOC2 report today and a pricing proposal by Friday, and we can get pricing and procurement on the calendar for next week.</v>

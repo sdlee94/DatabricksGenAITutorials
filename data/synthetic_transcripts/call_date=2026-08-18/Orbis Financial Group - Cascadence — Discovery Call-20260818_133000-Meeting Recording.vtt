@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.429
+<v Alex Chen>Helen, Anita, thanks for the time. I understand this evaluation is coming from a broader data infrastructure initiative — can you give me some context on what's driving it?</v>
+
+00:00:13.129 --> 00:00:28.557
+<v Helen Marsh>We're consolidating a handful of point-to-point integrations across our trading and reporting systems into something more centrally governed. Given the volume and sensitivity of what flows through those pipelines, this isn't a decision we take lightly.</v>
+
+00:00:29.257 --> 00:00:37.829
+<v Alex Chen>Understood. Given the data sensitivity, I'll have Devon speak directly to our security architecture rather than me characterizing it secondhand.</v>
+
+00:00:38.529 --> 00:00:53.529
+<v Devon Brooks>Happy to. At a high level — SOC2 Type II audited annually, encryption at rest and in transit, and full audit logging. Given you're financial services, I assume PCI-DSS is relevant too, even if indirectly?</v>
+
+00:00:54.229 --> 00:01:10.514
+<v Helen Marsh>Indirectly, yes — we don't store cardholder data ourselves, but some upstream systems touch payment data before it reaches us, so our vendors need to be PCI-aware even if full PCI scope doesn't apply to this specific pipeline.</v>
+
+00:01:11.214 --> 00:01:26.214
+<v Devon Brooks>Understood, we can speak to that in detail in a follow-up security review. One more question that affects architecture — do you need data residency in a specific region, or just anywhere in the US?</v>
+
+00:01:26.914 --> 00:01:34.629
+<v Helen Marsh>Both US and EU, actually — we have European trading desk data that has its own residency requirements.</v>
+
+00:01:35.329 --> 00:01:48.186
+<v Devon Brooks>We support region-pinned deployments for both, so that's workable. I'd want to walk through the specifics in a dedicated security review with your CISO, if that's the right next step.</v>
+
+00:01:48.886 --> 00:01:58.314
+<v Helen Marsh>It is — nothing moves forward here without Marcus, our CISO, signing off. I'd want that review before we go further technically.</v>
+
+00:01:59.014 --> 00:02:19.586
+<v Anita Souza>On the procurement side, I'll flag that our vendor risk process for a vendor touching data adjacent to payments typically takes six to eight weeks — security review, legal review, and a formal risk committee sign-off. I'd rather set that expectation now than have it be a surprise.</v>
+
+00:02:20.286 --> 00:02:34.429
+<v Alex Chen>Appreciate the transparency, that helps us plan. Given the scope you described, can you share roughly what volume or scale we're talking about, so we can price accurately once we're at that stage?</v>
+
+00:02:35.129 --> 00:02:46.700
+<v Helen Marsh>We're looking at consolidating roughly forty existing point-to-point integrations initially, with more likely to follow if this goes well. It's a meaningful commitment if we move forward.</v>
+
+00:02:47.400 --> 00:03:00.686
+<v Alex Chen>Understood, that context is helpful. Let's get the security review scheduled as the immediate next step — Devon, can you and Marcus's team find time in the next couple of weeks?</v>
+
+00:03:01.386 --> 00:03:12.100
+<v Devon Brooks>Yes, I'll reach out directly to coordinate, and I'll make sure we come prepared with the SOC2 report and subprocessor documentation ready to hand over.</v>
+
+00:03:12.800 --> 00:03:16.657
+<v Helen Marsh>Good, I'll let Marcus know to expect the outreach.</v>

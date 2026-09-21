@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.143
+<v Maria Gomez>Sam, this is the third night in a row our production sync has failed. Our shipment scheduling team is working off stale data and it's starting to cause real delays on the floor.</v>
+
+00:00:14.843 --> 00:00:26.414
+<v Sam Patel>I'm sorry to hear that, Maria — let's get this fixed. Can you give me the exact pipeline name and roughly what time it failed last night?</v>
+
+00:00:27.114 --> 00:00:33.114
+<v Maria Gomez>It's the 'production-sync-nightly' pipeline, and based on the alert it failed around 2:10 a.m.</v>
+
+00:00:33.814 --> 00:00:52.243
+<v Sam Patel>Pulling up the logs now... I see a timeout error during the load step, and it looks like it's been failing the same way for three nights, consistent with what you're describing. Let me check if this correlates with anything on our end.</v>
+
+00:00:52.943 --> 00:01:08.800
+<v Sam Patel>This lines up with a platform release we pushed nine days ago. I want to check with engineering whether there's a regression in the retry logic before I promise a root cause, but this timing is suspicious.</v>
+
+00:01:09.500 --> 00:01:24.929
+<v Maria Gomez>I appreciate the honesty, but I need to be direct — our contract has an uptime SLA, and three consecutive failed nights on a production pipeline is well outside that. I need this treated as urgent.</v>
+
+00:01:25.629 --> 00:01:44.914
+<v Sam Patel>Understood completely, I'm opening this as a P1 right now, which pages our on-call engineering team immediately rather than waiting in a normal queue. In the meantime, is there anything I can do to help you get today's data manually so your team isn't stuck?</v>
+
+00:01:45.614 --> 00:01:50.329
+<v Maria Gomez>That would help. Can you trigger a manual run right now?</v>
+
+00:01:51.029 --> 00:02:03.029
+<v Sam Patel>Yes, kicking off a manual run now... it's running. I'll stay on the line until it completes so you have current data today regardless of the underlying bug.</v>
+
+00:02:03.729 --> 00:02:10.157
+<v Maria Gomez>Okay, that's something. How fast can I expect an actual fix, not just a workaround?</v>
+
+00:02:10.857 --> 00:02:25.000
+<v Sam Patel>I'm committing to an update within 4 hours — either a root cause and fix, or a clear status if it needs longer. I'll call you directly, not just email, given the severity.</v>
+
+00:02:25.700 --> 00:02:32.557
+<v Maria Gomez>I'll hold you to that. Manual run just finished on my end, data looks current now.</v>
+
+00:02:33.257 --> 00:02:38.400
+<v Sam Patel>Good, confirmed on our side too. I'll follow up within 4 hours.</v>

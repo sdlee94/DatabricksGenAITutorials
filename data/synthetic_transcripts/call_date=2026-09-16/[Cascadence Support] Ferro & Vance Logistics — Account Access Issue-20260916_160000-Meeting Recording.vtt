@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.143
+<v Tom Reyes>Hi, this is Tom from Ferro & Vance, I'm locked out of my account and need a password reset.</v>
+
+00:00:08.843 --> 00:00:13.557
+<v Morgan Lee>I can help. Can you confirm the email on your account?</v>
+
+00:00:14.257 --> 00:00:15.057
+<v Tom Reyes>tom.reyes@ferrovance.example.</v>
+
+00:00:15.757 --> 00:00:35.043
+<v Morgan Lee>Thanks — I see the account, but I notice you're listed as a standard user, not an admin. For password resets on non-admin accounts, our policy requires a quick confirmation from your account admin before I can issue the reset, just as a security precaution.</v>
+
+00:00:35.743 --> 00:00:42.171
+<v Tom Reyes>Oh, okay. Nina's our admin, she's actually right here, can you just talk to her?</v>
+
+00:00:42.871 --> 00:00:46.300
+<v Morgan Lee>That works — can you put her on?</v>
+
+00:00:47.000 --> 00:00:53.857
+<v Nina Kowalski>Hi Morgan, this is Nina. Tom's on our dispatch team, it's fine to reset his password.</v>
+
+00:00:54.557 --> 00:01:06.557
+<v Morgan Lee>Thanks Nina, since you're already verified as the account admin from our system, that's all I need. Tom, I'm sending a password reset link to your email now.</v>
+
+00:01:07.257 --> 00:01:08.971
+<v Tom Reyes>Got it, thank you.</v>
+
+00:01:09.671 --> 00:01:18.671
+<v Morgan Lee>You're welcome — link expires in 30 minutes, so go ahead and use it shortly. Anything else for either of you?</v>
+
+00:01:19.371 --> 00:01:21.514
+<v Nina Kowalski>No, that's it, thanks Morgan.</v>
+
+00:01:22.214 --> 00:01:23.929
+<v Morgan Lee>Have a good one.</v>

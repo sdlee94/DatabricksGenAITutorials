@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.143
+<v Marcus Webb>Devon, thanks for coming prepared — Helen said you'd have documentation ready. Let's start with encryption and key management.</v>
+
+00:00:08.843 --> 00:00:22.986
+<v Devon Brooks>AES-256 at rest, TLS 1.2 or higher in transit. Keys are managed through our KMS, and we support customer-managed keys for enterprise accounts if you want direct control over key rotation and revocation.</v>
+
+00:00:23.686 --> 00:00:36.114
+<v Marcus Webb>We'd want customer-managed keys, that's typically a requirement for us. Can you speak to multi-tenant isolation — how confident are we that another customer's workload can't touch our data?</v>
+
+00:00:36.814 --> 00:00:54.814
+<v Devon Brooks>Each customer's data is logically isolated with dedicated encryption keys and enforced at the application and database layer, not just network-level separation. For accounts at your scale, we also offer a dedicated infrastructure tier if you want physical, not just logical, separation.</v>
+
+00:00:55.514 --> 00:01:07.514
+<v Marcus Webb>I'd want to understand pricing implications of that tier separately, but noted. Incident response — what's your SLA for notifying us if there's a breach affecting our data?</v>
+
+00:01:08.214 --> 00:01:21.500
+<v Devon Brooks>Contractually, notification within 72 hours of confirmed impact, though our internal target is much faster than that — typically same-day for anything material. I can share our incident response runbook summary.</v>
+
+00:01:22.200 --> 00:01:32.914
+<v Marcus Webb>Please do. I have your SOC2 Type II report here — I see two medium-severity findings from the last pen test. Walk me through those.</v>
+
+00:01:33.614 --> 00:01:58.043
+<v Devon Brooks>Both were related to session token handling in an internal admin tool, not customer-facing infrastructure. Both were remediated within the audit period, and the current report reflects them as closed. I can get you the specific remediation evidence — ticket references and verification test results — as a follow-up, I don't have that level of detail memorized.</v>
+
+00:01:58.743 --> 00:02:06.886
+<v Marcus Webb>That's fine, send it after this call, I'd want that documented before we finalize anything. Subprocessors and data retention?</v>
+
+00:02:07.586 --> 00:02:22.157
+<v Devon Brooks>Subprocessor list is limited to core infrastructure providers — I'll send the current one. On retention, standard is 30 days post-termination before cryptographic erasure, though that's configurable if your compliance requirements need something different.</v>
+
+00:02:22.857 --> 00:02:28.429
+<v Helen Marsh>Given EU data residency, would that retention period differ for that data specifically?</v>
+
+00:02:29.129 --> 00:02:39.843
+<v Devon Brooks>Same policy applies regardless of region, but the EU-resident data stays in-region throughout, including during that retention window — it never transits through US infrastructure.</v>
+
+00:02:40.543 --> 00:02:55.114
+<v Marcus Webb>Good, that answers my main residency concern. Overall, this is one of the more thorough reviews I've had with a vendor this size — I don't have blockers, pending that remediation evidence you mentioned.</v>
+
+00:02:55.814 --> 00:03:02.671
+<v Devon Brooks>I'll have that to you within two business days. What's the next step on your side?</v>
+
+00:03:03.371 --> 00:03:11.514
+<v Marcus Webb>Once I have the remediation evidence, I'll sign off from security, and this moves to legal and contract review.</v>
+
+00:03:12.214 --> 00:03:17.786
+<v Helen Marsh>I'll keep procurement looped in so there's no gap once security clears it.</v>
+
+00:03:18.486 --> 00:03:24.914
+<v Devon Brooks>Sounds good, I'll follow up with Alex to keep the commercial side moving in parallel.</v>

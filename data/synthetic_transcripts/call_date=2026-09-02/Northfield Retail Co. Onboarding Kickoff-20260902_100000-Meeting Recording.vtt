@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.286
+<v Riley Thompson>Welcome aboard, both of you — excited to get Northfield live. Let's start with account setup so I can get your workspace provisioned correctly.</v>
+
+00:00:10.986 --> 00:00:14.414
+<v Priya Nair>Sounds good. What do you need from us?</v>
+
+00:00:15.114 --> 00:00:22.829
+<v Riley Thompson>First, I want to confirm the SSO domain for your workspace — I have northfieldretail.example, is that correct?</v>
+
+00:00:23.529 --> 00:00:24.386
+<v Priya Nair>That's correct.</v>
+
+00:00:25.086 --> 00:00:34.943
+<v Riley Thompson>And I'll set the primary admin account to priya.nair@northfieldretail.example, with Wes as a secondary admin at wes.coleman@northfieldretail.example. Does that match what you'd want?</v>
+
+00:00:35.643 --> 00:00:36.929
+<v Priya Nair>Yes, that's right.</v>
+
+00:00:37.629 --> 00:00:51.343
+<v Riley Thompson>Last setup item — for account recovery purposes, I need a phone number on file for the primary admin in case we ever need to verify identity for a sensitive account change.</v>
+
+00:00:52.043 --> 00:00:55.900
+<v Priya Nair>You can use (614) 555-0142, that's my direct line.</v>
+
+00:00:56.600 --> 00:01:21.457
+<v Riley Thompson>Got it, that's on file. Now let's talk milestones. Given your October 10 target, I'd propose: this week we finish connector configuration for the POS export, next week we backfill 18 months of historical data and validate against your existing reports, and the following week we run in parallel with your current cron jobs before fully cutting over.</v>
+
+00:01:22.157 --> 00:01:29.871
+<v Wes Coleman>That timeline works. I can have SFTP credentials for the POS export ready by end of day tomorrow.</v>
+
+00:01:30.571 --> 00:01:39.571
+<v Riley Thompson>Perfect. I'll send a shared onboarding tracker after this call with owners and dates for each milestone. Any concerns so far?</v>
+
+00:01:40.271 --> 00:01:46.700
+<v Priya Nair>Just that this needs to be rock solid before peak — no surprises in November.</v>
+
+00:01:47.400 --> 00:01:57.686
+<v Riley Thompson>Understood, that's exactly why we're running the parallel validation week before cutover. I'll also set up a standing weekly check-in until we're stable post-go-live.</v>
+
+00:01:58.386 --> 00:01:59.243
+<v Wes Coleman>Appreciate that.</v>
+
+00:01:59.943 --> 00:02:05.086
+<v Riley Thompson>Great, I'll send the tracker and calendar invites today. Talk next week.</v>

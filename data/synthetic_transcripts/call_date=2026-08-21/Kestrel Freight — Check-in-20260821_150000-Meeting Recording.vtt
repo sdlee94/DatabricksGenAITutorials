@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.857
+<v Victor Owusu>Alex, wanted to let you know directly rather than have you find out secondhand — we've decided to go with a different vendor.</v>
+
+00:00:10.557 --> 00:00:20.843
+<v Alex Chen>I appreciate you telling me directly, Victor. Can I ask what tipped the decision? I want to make sure I understand rather than assume.</v>
+
+00:00:21.543 --> 00:00:38.257
+<v Victor Owusu>Pricing was actually close, close enough that it wasn't the deciding factor. It came down to real-time streaming — we need sub-minute visibility into freight location updates, and from what your team described, Cascadence is fundamentally batch-oriented right now.</v>
+
+00:00:38.957 --> 00:00:53.100
+<v Alex Chen>That's fair, and accurate — real-time streaming isn't something we support today, we're primarily scheduled and event-triggered batch. Did the vendor you chose, Streamline Data I believe you mentioned earlier, offer that natively?</v>
+
+00:00:53.800 --> 00:01:09.657
+<v Victor Owusu>Yes, that was their core pitch, actually. It mattered enough for our use case that it outweighed some other things we actually preferred about your platform, like the alerting and the onboarding experience you walked us through.</v>
+
+00:01:10.357 --> 00:01:26.214
+<v Alex Chen>I appreciate you sharing that, genuinely — that's useful for us to know as feedback, not just as a loss. Would you be open to me checking back in down the line if we add real-time capabilities?</v>
+
+00:01:26.914 --> 00:01:34.200
+<v Victor Owusu>Sure, I'd be open to that. Nothing against your team, this really was a specific feature gap.</v>
+
+00:01:34.900 --> 00:01:45.186
+<v Alex Chen>Understood, and thanks again for being straightforward about the reason — that's more helpful than you'd think. I'll follow up if our roadmap changes.</v>
+
+00:01:45.886 --> 00:01:47.600
+<v Victor Owusu>Sounds good, take care.</v>

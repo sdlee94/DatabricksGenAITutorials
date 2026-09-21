@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.857
+<v Sam Patel>Maria, thanks for making time. I want to close the loop on the sync failures with a full explanation, not just 'it's fixed.'</v>
+
+00:00:10.557 --> 00:00:11.843
+<v Maria Gomez>I'd appreciate that.</v>
+
+00:00:12.543 --> 00:00:39.114
+<v Sam Patel>The root cause was a bug we introduced in a platform release about two weeks ago — it changed how the connector retries after a transient timeout, and under your specific data volume it caused the job to fail outright instead of recovering. We deployed a fix the morning after your P1 call, and it's now run cleanly for five consecutive nights.</v>
+
+00:00:39.814 --> 00:00:50.957
+<v Maria Gomez>Five nights is good, but I want to understand — how did this ship without catching it? That's the part that worries me for next time.</v>
+
+00:00:51.657 --> 00:01:10.943
+<v Sam Patel>Fair question. It's a gap in our pre-release regression testing for retry behavior under high load specifically, and that's being addressed internally — I don't have full details to share today, but I can tell you it's an active workstream, not just a one-off fix.</v>
+
+00:01:11.643 --> 00:01:19.786
+<v Maria Gomez>Okay. What about the SLA — three nights of failed production syncs is well past what our contract allows.</v>
+
+00:01:20.486 --> 00:01:35.486
+<v Sam Patel>You're right, and we're not waiting for you to invoice us for it — we're issuing a 10% service credit against your current billing cycle for the SLA breach, no request needed on your end.</v>
+
+00:01:36.186 --> 00:01:46.471
+<v Maria Gomez>I appreciate that being proactive. Honestly, the bigger ask from me is better monitoring — I shouldn't be the one discovering a three-night outage.</v>
+
+00:01:47.171 --> 00:02:02.171
+<v Sam Patel>That's a completely fair ask, and it's something Riley is going to follow up with you separately on — there's a broader conversation planned about proactive alerting and a dedicated escalation path for your account.</v>
+
+00:02:02.871 --> 00:02:08.871
+<v Maria Gomez>Okay, I'll wait to hear from Riley then. Thanks for walking through this, Sam.</v>
+
+00:02:09.571 --> 00:02:23.714
+<v Sam Patel>Of course. I'm sorry again for the disruption — please don't hesitate to escalate directly to me if anything feels off in the next couple weeks while we confirm this is fully stable.</v>

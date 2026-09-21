@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.429
+<v Jamie Foster>Quick rundown for the week. Ticket volume was up about 15% versus last week, mostly driven by the Talus P1 and its follow-ups, which is expected given the severity.</v>
+
+00:00:13.129 --> 00:00:30.271
+<v Sam Patel>Talus is stable now — five, going on six, clean nights since the fix. I'm also starting to see the canary rollout process getting drafted, which should help catch this category of bug before it hits a customer next time.</v>
+
+00:00:30.971 --> 00:00:34.829
+<v Jamie Foster>Good. Morgan, anything notable from your queue this week?</v>
+
+00:00:35.529 --> 00:00:43.671
+<v Morgan Lee>Mostly routine — a how-to ticket from Meridian Foods on scheduled exports, resolved in one call. Nothing else urgent.</v>
+
+00:00:44.371 --> 00:01:00.229
+<v Sam Patel>I picked up a minor bug from Solvay Freight, a dropped column on CSV export after last week's release. Gave them a workaround, logged it for a future sprint, not urgent but worth tracking since it's release-related.</v>
+
+00:01:00.929 --> 00:01:20.214
+<v Jamie Foster>Noted, let's make sure that doesn't get lost given everything else going on. Shifting topics — Northfield onboarding kicked off this week and their go-live is targeted for October 10th, ahead of their peak season. That's going to mean a heavier support load during cutover.</v>
+
+00:01:20.914 --> 00:01:31.200
+<v Sam Patel>Worth flagging now — if Northfield's cutover lands around the same time as any other major account activity, we could be tight on coverage.</v>
+
+00:01:31.900 --> 00:01:43.043
+<v Jamie Foster>Agreed, I'll raise headcount with Taylor if volume trends keep climbing. For now, let's just make sure Northfield's onboarding tickets get prioritized given their timeline sensitivity.</v>
+
+00:01:43.743 --> 00:01:48.886
+<v Morgan Lee>Understood, I'll keep an eye out for anything tagged to their account.</v>
+
+00:01:49.586 --> 00:01:51.729
+<v Jamie Foster>Good. Same time next week.</v>

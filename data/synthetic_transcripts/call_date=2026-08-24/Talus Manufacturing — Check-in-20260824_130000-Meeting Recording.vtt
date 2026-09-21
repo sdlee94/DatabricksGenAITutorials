@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.000
+<v Riley Thompson>Thanks for making time, especially you, Frank — I wanted this conversation to include leadership, not just be another technical call.</v>
+
+00:00:09.700 --> 00:00:22.986
+<v Frank Delgado>Appreciate that. I'll be honest, Maria brought this to me directly because of how disruptive it was on the floor. I want to understand what's changing so this doesn't happen again.</v>
+
+00:00:23.686 --> 00:00:39.114
+<v Riley Thompson>Completely fair. I put together a short post-incident summary — root cause, the fix, and the SLA credit Sam already applied. Beyond that, I want to propose a few things specific to your account going forward.</v>
+
+00:00:39.814 --> 00:00:40.671
+<v Maria Gomez>I'm listening.</v>
+
+00:00:41.371 --> 00:01:12.657
+<v Riley Thompson>First, a dedicated Slack channel connecting your team directly to our support and engineering leads, so nothing has to go through a general queue if something urgent comes up. Second, quarterly health-check calls where we proactively review pipeline reliability metrics with you, rather than waiting for something to break. Third, a free refresher training session for your team on the monitoring and alerting features, since I don't think you're using everything available today.</v>
+
+00:01:13.357 --> 00:01:25.786
+<v Frank Delgado>That's a reasonable set of offers. I'll be direct, though — our renewal is in November, and this incident has us evaluating alternatives more seriously than we were before.</v>
+
+00:01:26.486 --> 00:01:50.057
+<v Riley Thompson>I appreciate you being upfront, and I'd rather know that now than be surprised in November. Given what happened, I also want to flag that we have room to talk about pricing flexibility at renewal — I can't commit to specifics today, but I want you to know that's on the table given the disruption.</v>
+
+00:01:50.757 --> 00:01:59.757
+<v Maria Gomez>That, plus the dedicated channel, genuinely helps. My biggest fear was that this becomes 'business as usual' again in two weeks.</v>
+
+00:02:00.457 --> 00:02:17.600
+<v Riley Thompson>It won't — I'll personally own the quarterly health checks for at least the next year regardless of who owns the account long term. Let's get the Slack channel set up today and schedule the first health check for mid-September.</v>
+
+00:02:18.300 --> 00:02:23.443
+<v Frank Delgado>Okay, let's do that. We're not walking away, but we're watching closely.</v>
+
+00:02:24.143 --> 00:02:30.143
+<v Riley Thompson>Understood, and that's fair. I'll follow up in writing with everything we discussed today.</v>

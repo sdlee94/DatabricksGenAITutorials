@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:06.000
+<v Jordan Ruiz>Nina, thanks for jumping on short notice — I understand there's some urgency here.</v>
+
+00:00:06.700 --> 00:00:23.414
+<v Nina Kowalski>There is. We just landed a new client that requires EDI integration for load tracking, and honestly right now our 'system' is three different spreadsheets that my dispatcher and I both update manually. It's not going to hold up.</v>
+
+00:00:24.114 --> 00:00:27.114
+<v Jordan Ruiz>How soon do you need something working?</v>
+
+00:00:27.814 --> 00:00:32.957
+<v Nina Kowalski>Three weeks, realistically. That's when the new client goes live with us.</v>
+
+00:00:33.657 --> 00:00:46.514
+<v Jordan Ruiz>Okay, that's tight but doable for a setup your size. Let me just show you directly rather than talk in the abstract — I'll pull up a simple example pipeline.</v>
+
+00:00:47.214 --> 00:00:48.929
+<v Nina Kowalski>Please, that would help.</v>
+
+00:00:49.629 --> 00:01:04.200
+<v Jordan Ruiz>Here's a basic flow — pulling load data from an EDI feed, standardizing it, and pushing it into a single dashboard your whole team can see, dispatcher included. No more manually reconciling three spreadsheets.</v>
+
+00:01:04.900 --> 00:01:13.043
+<v Nina Kowalski>That's basically exactly what I need. What does this cost for a company our size? We're eleven people total.</v>
+
+00:01:13.743 --> 00:01:27.886
+<v Jordan Ruiz>For a company your size we have a straightforward SMB plan — flat monthly fee, no long-term contract required, includes the EDI connector and onboarding support. I can send you exact numbers today.</v>
+
+00:01:28.586 --> 00:01:41.014
+<v Nina Kowalski>If the price is reasonable I want to move fast — I don't have time for a long sales process, I need this working before that client goes live.</v>
+
+00:01:41.714 --> 00:01:52.000
+<v Jordan Ruiz>Understood, I'll send pricing within the hour, and if it works for you we can get a contract signed and start onboarding this week.</v>
+
+00:01:52.700 --> 00:01:54.843
+<v Nina Kowalski>That works. Send it over.</v>

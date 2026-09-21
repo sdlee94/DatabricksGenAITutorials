@@ -1,0 +1,37 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.571
+<v Alex Chen>Daniel, thanks for the time — good to finally connect after the conference. I saw your team's talk on interoperability challenges, that's actually right in our wheelhouse.</v>
+
+00:00:12.271 --> 00:00:29.843
+<v Daniel Okafor>Yeah, that talk was basically a cry for help. We're running a legacy HL7 interface engine that's held together with duct tape at this point. Anytime we need to add a new feed from a partner system, it's a multi-week project.</v>
+
+00:00:30.543 --> 00:00:38.686
+<v Alex Chen>That's a common story, unfortunately. What's driving the urgency right now, versus it just being a known pain point?</v>
+
+00:00:39.386 --> 00:00:52.243
+<v Daniel Okafor>We're onboarding two new regional clinics next year and each one means new interfaces. Our current setup doesn't scale to that without more headcount, which we don't have budget for.</v>
+
+00:00:52.943 --> 00:01:10.943
+<v Alex Chen>Understood. Cascadence Flow can absolutely help there — standardized connectors, and I know healthcare is a big enough vertical for us that we have HIPAA-specific tooling, including BAAs for customers who need PHI handling covered contractually. Is that a requirement for you?</v>
+
+00:01:11.643 --> 00:01:18.929
+<v Daniel Okafor>Yes, non-negotiable. Anything touching patient data needs a signed BAA and needs to satisfy our security team.</v>
+
+00:01:19.629 --> 00:01:33.771
+<v Alex Chen>We can do that. I'd want to bring in our sales engineer, Devon, who's handled healthcare deals before, so we can go deep on the compliance side rather than me guessing at answers.</v>
+
+00:01:34.471 --> 00:01:41.329
+<v Daniel Okafor>That'd be useful. I'll also want to bring our security lead, Lena Ward, into that conversation.</v>
+
+00:01:42.029 --> 00:01:53.600
+<v Alex Chen>Perfect, let's set that up. Before we do — what's your budget situation? You mentioned headcount constraints, is there capital available for a platform purchase this year?</v>
+
+00:01:54.300 --> 00:02:08.014
+<v Daniel Okafor>Honestly, no — our budget for new tooling is frozen until our new fiscal year starts October 1st. I can still evaluate now so we're ready to move once that opens up.</v>
+
+00:02:08.714 --> 00:02:23.714
+<v Alex Chen>That's helpful context, thanks for the transparency. Let's do the technical deep dive in the next couple weeks so you're fully evaluated by the time budget opens, and then we can move quickly in October.</v>
+
+00:02:24.414 --> 00:02:26.129
+<v Daniel Okafor>That works for me.</v>

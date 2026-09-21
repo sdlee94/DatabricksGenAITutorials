@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:11.571
+<v Taylor Brennan>Let's use Talus as the case study for this post-mortem, since it's fresh and it's a real churn risk. Jamie, what's changing on the engineering release side?</v>
+
+00:00:12.271 --> 00:00:34.986
+<v Jamie Foster>We're proposing a canary rollout process — new releases go to a small percentage of accounts first, monitored for 24 hours, before going wide. This specific bug only showed up under Talus's high-volume load pattern, and a canary against a similarly high-volume account likely would have caught it before it ever reached them.</v>
+
+00:00:35.686 --> 00:00:43.400
+<v Taylor Brennan>Good, let's push to get that prioritized. Riley, how's the relationship since your call with Frank and Maria?</v>
+
+00:00:44.100 --> 00:00:58.671
+<v Riley Thompson>Better than I expected. The dedicated Slack channel is live, first quarterly health check is scheduled for mid-September. Frank was direct that they're evaluating alternatives, so I wouldn't call this resolved, but it's stabilized.</v>
+
+00:00:59.371 --> 00:01:15.229
+<v Taylor Brennan>I want to flag something uncomfortable — our churn-risk scoring model didn't flag Talus until after Maria escalated. That's backwards. The whole point of a proactive score is catching this before the customer has to tell us.</v>
+
+00:01:15.929 --> 00:01:36.929
+<v Jamie Foster>Agreed. Right now the score is mostly based on support ticket volume and sentiment, which is inherently reactive. We should be feeding in pipeline failure rates directly, per account, so a pattern like three consecutive failed nights would raise the score automatically rather than needing a human complaint first.</v>
+
+00:01:37.629 --> 00:01:52.629
+<v Taylor Brennan>That's exactly the kind of proactive monitoring we should be building — ironically, the same category of problem we sell to customers. Let's write that up as a formal action item for the data/product team.</v>
+
+00:01:53.329 --> 00:02:00.186
+<v Riley Thompson>I'll bring that up with Priya on the product side, this seems like something worth prioritizing.</v>
+
+00:02:00.886 --> 00:02:09.457
+<v Taylor Brennan>Good. Last thing — renewal strategy for Talus. Riley, you floated pricing flexibility on the call. What are we thinking?</v>
+
+00:02:10.157 --> 00:02:29.871
+<v Riley Thompson>I'd propose a 5% loyalty discount on renewal, on top of the SLA credit already issued. Not a huge number, but paired with the process changes, it should be enough to keep them, especially since Frank didn't sound like this was a done decision to leave.</v>
+
+00:02:30.571 --> 00:02:37.429
+<v Taylor Brennan>I'm comfortable with that. Let's get that approved and have you lead the renewal conversation directly.</v>

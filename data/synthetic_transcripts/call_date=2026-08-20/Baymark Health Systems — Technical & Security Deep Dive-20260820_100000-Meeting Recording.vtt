@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.429
+<v Devon Brooks>Thanks for making time, especially you, Lena — I know security reviews are usually the long pole, so let's front-load your questions.</v>
+
+00:00:10.129 --> 00:00:16.986
+<v Lena Ward>Appreciate that. Let's start broad — walk me through encryption, both at rest and in transit.</v>
+
+00:00:17.686 --> 00:00:27.971
+<v Devon Brooks>At rest, everything is AES-256 encrypted, with customer-specific encryption keys managed through our KMS. In transit, everything is TLS 1.2 or higher, no exceptions.</v>
+
+00:00:28.671 --> 00:00:31.243
+<v Lena Ward>Do you sign Business Associate Agreements?</v>
+
+00:00:31.943 --> 00:00:41.800
+<v Devon Brooks>Yes, standard part of our healthcare contracts. Legal can have a draft BAA to you within a day of us moving to contracting.</v>
+
+00:00:42.500 --> 00:00:48.071
+<v Lena Ward>Good. What's your penetration testing cadence, and can we see a summary report?</v>
+
+00:00:48.771 --> 00:01:07.200
+<v Devon Brooks>Annual third-party pen tests, plus continuous automated scanning. I can share an executive summary of the most recent pen test under NDA — the full report has more detail than most customers need, but we can share more if your team requires it.</v>
+
+00:01:07.900 --> 00:01:12.614
+<v Lena Ward>That's fine for now. Subprocessors — who else touches our data?</v>
+
+00:01:13.314 --> 00:01:27.029
+<v Devon Brooks>We maintain a public subprocessor list — primarily our cloud infrastructure provider and a monitoring vendor for infrastructure metrics only, not customer data content. I'll send the current list after this call.</v>
+
+00:01:27.729 --> 00:01:35.014
+<v Daniel Okafor>What about audit logging — if there's ever an incident, can we trace exactly who touched what?</v>
+
+00:01:35.714 --> 00:01:48.143
+<v Devon Brooks>Yes, every read and write action is logged with user, timestamp, and IP, retained for a minimum of one year, exportable to your SIEM if you want it centralized.</v>
+
+00:01:48.843 --> 00:01:53.557
+<v Lena Ward>Data retention and deletion — if we terminate, what's the process?</v>
+
+00:01:54.257 --> 00:02:06.686
+<v Devon Brooks>On contract termination, we retain data for 30 days for transition purposes, then it's cryptographically erased. We can also do an on-demand export at any point during the contract.</v>
+
+00:02:07.386 --> 00:02:15.100
+<v Lena Ward>This all sounds solid. I don't have blockers from a security standpoint based on what I've heard today.</v>
+
+00:02:15.800 --> 00:02:26.943
+<v Daniel Okafor>That's great to hear. Alex, as I mentioned, budget doesn't open until October, but I want us fully evaluated so there's no delay once it does.</v>
+
+00:02:27.643 --> 00:02:44.357
+<v Alex Chen>Understood, and this was a big step toward that. I'll send a summary of everything covered today along with the subprocessor list and BAA template so your team has it on file. We'll check back in as October approaches.</v>
+
+00:02:45.057 --> 00:02:46.771
+<v Daniel Okafor>Sounds good, thanks both.</v>

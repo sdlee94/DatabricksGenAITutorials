@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.571
+<v Devon Brooks>Priya, I've got a CISO-level security review coming up for Orbis, a large financial services prospect. I want to make sure I'm walking in with the right materials and not improvising on anything compliance-sensitive.</v>
+
+00:00:15.271 --> 00:00:20.843
+<v Priya Iyer>Good call. What's their focus area — anything unusual, or standard SOC2/encryption/residency questions?</v>
+
+00:00:21.543 --> 00:00:32.686
+<v Devon Brooks>Mostly standard, but heavier than usual on PCI-adjacency since payment data touches some of their upstream systems, and they need both US and EU data residency.</v>
+
+00:00:33.386 --> 00:00:49.243
+<v Priya Iyer>For PCI-adjacency, be careful not to imply we're PCI-DSS certified ourselves — we're not, since we don't store cardholder data. I'll send you the exact language legal approved for that distinction so you're not freelancing it live.</v>
+
+00:00:49.943 --> 00:01:11.371
+<v Devon Brooks>Good, that's exactly the kind of thing I don't want to get wrong in front of a CISO. Can you also get me the latest SOC2 Type II report and the pen test remediation summary? Last time I only had the exec summary, and enterprise security teams usually want more.</v>
+
+00:01:12.071 --> 00:01:27.500
+<v Priya Iyer>I'll pull the current Type II report and the remediation tracker for the last pen test — a few findings were medium severity but all closed, so that should read well if we're transparent about it.</v>
+
+00:01:28.200 --> 00:01:46.200
+<v Devon Brooks>Being upfront about closed findings is usually better than looking like we have nothing. I'll prep an FAQ doc with likely questions — key management, multi-tenant isolation, incident response SLAs — and send it to you to sanity check before the call.</v>
+
+00:01:46.900 --> 00:01:54.186
+<v Priya Iyer>Send it over, I'll turn it around same day given the timeline. What's the deal size here?</v>
+
+00:01:54.886 --> 00:02:11.600
+<v Devon Brooks>Early estimate is a large multi-year contract if it lands — they're consolidating around forty integrations. Procurement already flagged a six to eight week vendor risk process though, so even if the review goes perfectly, this isn't closing fast.</v>
+
+00:02:12.300 --> 00:02:20.871
+<v Priya Iyer>Understood, I'll prioritize getting you the materials this week so at least the review itself isn't what slows things down.</v>

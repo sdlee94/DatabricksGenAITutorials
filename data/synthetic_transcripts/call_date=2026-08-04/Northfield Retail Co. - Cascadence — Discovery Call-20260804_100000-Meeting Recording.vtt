@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:14.143
+<v Jordan Ruiz>Thanks for hopping on, Priya. I know you're deep in peak-season prep, so I'll keep this focused. Can you walk me through how data moves between your POS system and your warehouse today?</v>
+
+00:00:14.843 --> 00:00:33.700
+<v Priya Nair>Sure. Right now it's a set of cron jobs on an old EC2 box running Python scripts one of our analysts wrote years ago. Every night at 1 a.m. they pull CSV exports from the POS vendor's SFTP and load them into our warehouse.</v>
+
+00:00:34.400 --> 00:00:52.400
+<v Wes Coleman>And I'm the one who gets paged when it breaks, which is more often than I'd like. Last month we had three silent failures where the job just... didn't run, and nobody noticed until finance asked why yesterday's sales numbers were missing.</v>
+
+00:00:53.100 --> 00:01:02.100
+<v Jordan Ruiz>That's a rough way to start the morning. When a job fails silently like that, how do you usually find out?</v>
+
+00:01:02.800 --> 00:01:09.229
+<v Wes Coleman>Honestly, someone downstream notices a dashboard looks wrong. There's no alerting built into the scripts.</v>
+
+00:01:09.929 --> 00:01:21.500
+<v Priya Nair>And with Black Friday and holiday volume coming up, a missed load isn't a minor annoyance anymore — it's lost visibility into inventory at our busiest time.</v>
+
+00:01:22.200 --> 00:01:33.771
+<v Jordan Ruiz>Got it. So two things I'm hearing: reliability of the nightly loads, and visibility when something does go wrong. Is there a specific timeline you're working against?</v>
+
+00:01:34.471 --> 00:01:42.614
+<v Priya Nair>We'd want something stable and battle-tested well before mid-October, so we have a few weeks of runway before peak.</v>
+
+00:01:43.314 --> 00:02:04.314
+<v Jordan Ruiz>That's workable. Cascadence Flow handles exactly this — managed connectors for POS and warehouse systems, built-in retry logic, and alerting to Slack or email the moment something fails instead of an hour later. Would it help if I showed you the platform live with a setup close to yours?</v>
+
+00:02:05.014 --> 00:02:20.443
+<v Priya Nair>Yes, that would help a lot. Can we bring in someone from your side who can speak to the technical architecture? I'll have Wes there too, and I want to understand where our data actually lives.</v>
+
+00:02:21.143 --> 00:02:36.571
+<v Jordan Ruiz>Absolutely, I'll loop in Devon, one of our sales engineers — he can go deep on connectors and security. Are you also the economic buyer here, or is there someone else I should be aware of?</v>
+
+00:02:37.271 --> 00:02:44.986
+<v Priya Nair>I own the technical decision. Our procurement lead, Greg Hall, gets involved once we're ready to talk contract.</v>
+
+00:02:45.686 --> 00:02:55.543
+<v Jordan Ruiz>Perfect, good to know. I'll send a couple of times for next week for the demo — does Tuesday or Wednesday work better?</v>
+
+00:02:56.243 --> 00:02:59.671
+<v Priya Nair>Wednesday works. Let's do late morning if possible.</v>
+
+00:03:00.371 --> 00:03:11.086
+<v Jordan Ruiz>I'll get that on the calendar. One last question — what are you using today for alerting, if anything, so Devon can tailor the demo?</v>
+
+00:03:11.786 --> 00:03:16.500
+<v Wes Coleman>Nothing dedicated. We have a shared inbox that basically nobody checks.</v>
+
+00:03:17.200 --> 00:03:24.486
+<v Jordan Ruiz>Noted. We'll make sure to show you what proactive alerting actually looks like. Thanks both, talk soon.</v>

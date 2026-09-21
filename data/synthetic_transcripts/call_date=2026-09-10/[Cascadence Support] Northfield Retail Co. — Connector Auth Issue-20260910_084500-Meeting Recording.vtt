@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:09.429
+<v Wes Coleman>Hey Sam, our nightly load to the warehouse failed last night. The error mentions an expired token on the warehouse DB connector.</v>
+
+00:00:10.129 --> 00:00:23.843
+<v Sam Patel>Thanks for the heads up, let me pull up your workspace. Yep, I see it — the OAuth token for the warehouse connector expired at 1:03 a.m., right before your scheduled run.</v>
+
+00:00:24.543 --> 00:00:28.829
+<v Wes Coleman>That's strange, we only set this up a week ago.</v>
+
+00:00:29.529 --> 00:00:49.671
+<v Sam Patel>You're right, that's shorter than it should be. Let me check the token policy on your connector... I see the issue. It was provisioned with a 7-day TTL instead of our standard 90-day default. That looks like a config bug on our end, not anything you did.</v>
+
+00:00:50.371 --> 00:00:58.086
+<v Wes Coleman>Okay, good to know it wasn't us. Can we fix it now so tonight's run doesn't fail again?</v>
+
+00:00:58.786 --> 00:01:13.786
+<v Sam Patel>Yes, I'm going to re-authenticate the connector and issue a new key with the correct 90-day TTL. I'll need to send the new API key to your admin email on file — that's wes.coleman@northfieldretail.example, correct?</v>
+
+00:01:14.486 --> 00:01:15.343
+<v Wes Coleman>That's correct.</v>
+
+00:01:16.043 --> 00:01:33.186
+<v Sam Patel>Sending it now — you should see it land in a few seconds. Once you have it, go to connector settings and paste it into the credentials field, then run a manual test sync so we can confirm before tonight.</v>
+
+00:01:33.886 --> 00:01:38.600
+<v Wes Coleman>Got the email, updating now... okay, test sync just completed successfully.</v>
+
+00:01:39.300 --> 00:01:54.300
+<v Sam Patel>Great, that confirms it. I'm also filing an internal bug against the provisioning default so this doesn't happen to other new connectors — this shouldn't have shipped with a 7-day TTL in the first place.</v>
+
+00:01:55.000 --> 00:01:58.857
+<v Wes Coleman>Appreciate the transparency. Will this affect tonight's scheduled run?</v>
+
+00:01:59.557 --> 00:02:12.843
+<v Sam Patel>No, you're good — the new token is active now and won't expire until early December. I'll follow up with a note once the underlying default is fixed on our side.</v>
+
+00:02:13.543 --> 00:02:15.257
+<v Wes Coleman>Sounds good, thanks Sam.</v>

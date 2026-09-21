@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.857
+<v Jamie Foster>Let's debrief on Talus. Sam, what did engineering find?</v>
+
+00:00:04.557 --> 00:00:24.700
+<v Sam Patel>Confirmed — the release from nine days ago changed the retry backoff logic on the sync connector, and under Talus's specific load pattern it caused the job to time out before completing. It's fixed and deployed as of this morning, and I've verified three clean runs since.</v>
+
+00:00:25.400 --> 00:00:41.257
+<v Jamie Foster>Good. That's a real miss on our regression testing though — three nights of a P1 for one of our manufacturing accounts is bad, especially since Maria had to catch it rather than us catching it first.</v>
+
+00:00:41.957 --> 00:00:59.100
+<v Riley Thompson>From a relationship standpoint, this is a problem. Maria was clearly frustrated on the call, and Talus renews in November. I don't think this alone tanks the renewal, but it damages trust, and if it happens again it absolutely could.</v>
+
+00:00:59.800 --> 00:01:11.371
+<v Sam Patel>Contractually they're entitled to an SLA credit given three consecutive nights of failures. I think we should offer that proactively rather than waiting for them to ask.</v>
+
+00:01:12.071 --> 00:01:21.071
+<v Jamie Foster>Agreed, let's calculate the credit and have Sam present it on the follow-up resolution call so it's clear we're taking ownership.</v>
+
+00:01:21.771 --> 00:01:39.771
+<v Riley Thompson>I'd also like a separate call, just me and their team, focused purely on the relationship — not technical details, more 'here's how we're going to earn back trust before renewal.' I want to propose something concrete, like a dedicated escalation channel.</v>
+
+00:01:40.471 --> 00:01:52.900
+<v Jamie Foster>That makes sense, keep the technical resolution call tight and factual, and let CS own the trust conversation. Sam, can you have the resolution call with Maria this week?</v>
+
+00:01:53.600 --> 00:01:56.600
+<v Sam Patel>Yes, I'll reach out today to schedule.</v>
+
+00:01:57.300 --> 00:02:05.014
+<v Riley Thompson>I'll follow up mine shortly after, once the fix has had a few more days to prove stable.</v>
+
+00:02:05.714 --> 00:02:14.286
+<v Jamie Foster>Good plan. Let's also flag this account in the churn-risk tracker so it comes up in the CS post-mortem review.</v>

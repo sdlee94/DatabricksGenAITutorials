@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:08.143
+<v Owen Park>Hey, since the update earlier this week, our CSV export is missing the 'carrier_code' column. It was there before.</v>
+
+00:00:08.843 --> 00:00:23.843
+<v Sam Patel>Thanks for flagging, let me reproduce that on my end... yep, I can confirm, 'carrier_code' is dropping from the export after the update. This is a known issue affecting exports using the legacy field-mapping template.</v>
+
+00:00:24.543 --> 00:00:30.971
+<v Owen Park>Is there a timeline for a fix? We need that column for our downstream reconciliation.</v>
+
+00:00:31.671 --> 00:00:55.671
+<v Sam Patel>It's logged already, but I don't have a committed release date yet — realistically it'll land in an upcoming sprint rather than an emergency patch, since there's a workaround. In the meantime, you can manually re-add 'carrier_code' to your field mapping under export settings, and it'll populate correctly even though it dropped from the default template.</v>
+
+00:00:56.371 --> 00:01:04.086
+<v Owen Park>Let me try that... okay, I added it back manually and re-ran the export, the column's there now.</v>
+
+00:01:04.786 --> 00:01:18.071
+<v Sam Patel>Good, that confirms the workaround holds until the underlying template is fixed. I'll leave this ticket open and update you directly once the fix ships rather than closing it out now.</v>
+
+00:01:18.771 --> 00:01:22.200
+<v Owen Park>That works, appreciate the quick workaround at least.</v>
+
+00:01:22.900 --> 00:01:30.614
+<v Sam Patel>Of course, sorry for the disruption — I'll follow up as soon as I have a release timeline.</v>

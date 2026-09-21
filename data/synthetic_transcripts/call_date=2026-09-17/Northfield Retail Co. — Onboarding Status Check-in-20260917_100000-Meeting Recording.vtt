@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.429
+<v Riley Thompson>Northfield update — onboarding health score is green. We finished the parallel-run validation week and everything's matching their legacy reports, so we're on track for the October 10th cutover.</v>
+
+00:00:13.129 --> 00:00:15.271
+<v Casey Nguyen>Any bumps along the way?</v>
+
+00:00:15.971 --> 00:00:34.400
+<v Riley Thompson>Two support tickets, both minor and resolved same-day — a connector auth token misconfiguration, and a phishing email Wes reported that we confirmed wasn't a real compromise. Neither is a churn signal, if anything Wes has been complimentary about how fast support responded.</v>
+
+00:00:35.100 --> 00:00:46.671
+<v Jordan Ruiz>Good to hear. Priya mentioned back during the deal review that they might open a second distribution region next year — is that still on the radar?</v>
+
+00:00:47.371 --> 00:01:03.657
+<v Riley Thompson>Yes, it came up again briefly in our last check-in. I don't want to push an upsell conversation before they're even live, but I'd flag it as a real Q4 opportunity once cutover is behind them and stable.</v>
+
+00:01:04.357 --> 00:01:16.357
+<v Casey Nguyen>Agreed, let's not rush it. Once they're live and it's been stable for a few weeks, that's the right moment to bring it up, probably alongside a QBR.</v>
+
+00:01:17.057 --> 00:01:28.629
+<v Riley Thompson>I was planning to schedule their first QBR for mid-October anyway, once we're past the peak-season cutover. That'd be a natural place to introduce the second-region conversation.</v>
+
+00:01:29.329 --> 00:01:36.614
+<v Jordan Ruiz>That timing makes sense to me, I'll stay looped in but let Riley lead since it's post-close.</v>
+
+00:01:37.314 --> 00:01:42.886
+<v Casey Nguyen>Good plan. Nice work getting this one stable heading into their busiest season.</v>

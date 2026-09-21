@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:12.000
+<v Carla Jimenez>Hi, quick question — I'm trying to set up a new scheduled export from Cascadence into our BI tool, but I don't see where to configure the schedule.</v>
+
+00:00:12.700 --> 00:00:24.271
+<v Morgan Lee>Happy to walk you through it. Go to the pipeline you want to export from, then click 'Destinations' in the left panel — do you see that?</v>
+
+00:00:24.971 --> 00:00:26.686
+<v Carla Jimenez>Yes, I see it.</v>
+
+00:00:27.386 --> 00:00:38.529
+<v Morgan Lee>Click 'Add Destination', choose your BI tool from the list, and you'll get a scheduling option on the next screen — daily, hourly, or custom cron.</v>
+
+00:00:39.229 --> 00:00:44.371
+<v Carla Jimenez>Found it. I'm going to set it for daily at 6 a.m.</v>
+
+00:00:45.071 --> 00:00:55.357
+<v Morgan Lee>That'll work well. Once you save it, you can also trigger a manual test run to confirm the connection before waiting for the schedule.</v>
+
+00:00:56.057 --> 00:01:02.486
+<v Carla Jimenez>Just ran the test, it worked, data showed up in our BI tool right away.</v>
+
+00:01:03.186 --> 00:01:07.900
+<v Morgan Lee>Great, you're all set then. Anything else I can help with?</v>
+
+00:01:08.600 --> 00:01:13.314
+<v Carla Jimenez>No, that's exactly what I needed, thanks for the quick help.</v>
+
+00:01:14.014 --> 00:01:16.157
+<v Morgan Lee>Anytime, have a good one.</v>

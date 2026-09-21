@@ -1,0 +1,40 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:15.000
+<v Wes Coleman>Hi Sam, this is Wes from Northfield again. I got a weird email this morning claiming to be from Cascadence billing, asking me to click a link and re-enter our payment info. Is that legitimate?</v>
+
+00:00:15.700 --> 00:00:34.557
+<v Sam Patel>Good instinct to check before clicking anything. Before we go further, since this is an account security question, I need to verify it's really you — can you confirm the last four digits of your Cascadence account ID and the phone number on file?</v>
+
+00:00:35.257 --> 00:00:41.257
+<v Wes Coleman>Account ID ends in 4471, and the phone on file should be (614) 555-0177.</v>
+
+00:00:41.957 --> 00:00:51.386
+<v Sam Patel>That matches what we have, thanks. Okay — can you read me the sender address on that email, not clicking any links?</v>
+
+00:00:52.086 --> 00:00:55.514
+<v Wes Coleman>It says billing-support@cascadence-secure-billing.example, not the domain I'd expect.</v>
+
+00:00:56.214 --> 00:01:15.929
+<v Sam Patel>Confirmed, that's not a domain we own — our billing communications only ever come from @cascadence.example. This is a phishing attempt, not a real Cascadence email. Please don't click any links, and go ahead and delete it or report it through your internal IT security process.</v>
+
+00:01:16.629 --> 00:01:21.771
+<v Wes Coleman>Will do. Should I be worried about anyone getting into our account?</v>
+
+00:01:22.471 --> 00:01:42.186
+<v Sam Patel>I don't see any suspicious login activity on your workspace right now, so there's no indication your account itself was compromised. As a precaution, I'd recommend enabling multi-factor authentication for all admins if you haven't already — want me to walk you through turning that on?</v>
+
+00:01:42.886 --> 00:01:45.029
+<v Wes Coleman>Yes, let's do that now.</v>
+
+00:01:45.729 --> 00:01:53.014
+<v Sam Patel>Great, go to account settings, security tab... I'll stay on the line while you set it up.</v>
+
+00:01:53.714 --> 00:01:57.143
+<v Wes Coleman>Okay, MFA is enabled on my account now.</v>
+
+00:01:57.843 --> 00:02:15.414
+<v Sam Patel>Perfect. I'd also suggest having Priya, as the primary admin, do the same. I'll log this ticket as a reported phishing attempt with no account compromise, and flag it to our security team just in case others receive the same email.</v>
+
+00:02:16.114 --> 00:02:19.114
+<v Wes Coleman>Sounds good, thanks for the quick turnaround.</v>

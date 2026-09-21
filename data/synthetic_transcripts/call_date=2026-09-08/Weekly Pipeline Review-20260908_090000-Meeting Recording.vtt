@@ -1,0 +1,22 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:10.286
+<v Casey Nguyen>Let's look at Baymark — I see the technical deep dive was three weeks ago and there's been no activity since. What's the status?</v>
+
+00:00:10.986 --> 00:00:28.986
+<v Alex Chen>It went well technically — security had no blockers — but Daniel's been quiet since. I know their budget is frozen until October 1st, so some of that silence is expected, but three weeks with zero response is longer than I'd like.</v>
+
+00:00:29.686 --> 00:00:40.829
+<v Casey Nguyen>Agreed, we don't want this going cold right as budget opens and losing momentum to a competitor doing outreach at the same time. What's your plan?</v>
+
+00:00:41.529 --> 00:00:55.671
+<v Alex Chen>I was going to send a check-in early next week, timed just ahead of October 1, referencing the deep dive and asking if we can pencil in next steps for once budget unlocks.</v>
+
+00:00:56.371 --> 00:01:15.229
+<v Casey Nguyen>I'd go slightly more direct — ask him outright if we can get 20 minutes in the first week of October to restart, rather than leaving it open-ended. Given security already signed off, this should be one of our faster closes once budget's real.</v>
+
+00:01:15.929 --> 00:01:27.071
+<v Alex Chen>That's fair, I'll frame it that way. I'll also loop in a case study from a similar healthcare customer to keep it warm in the meantime.</v>
+
+00:01:27.771 --> 00:01:32.486
+<v Casey Nguyen>Good. Keep this on the at-risk list until we hear back.</v>
