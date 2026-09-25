@@ -1,7 +1,7 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:12.000
-<v Carla Jimenez>Hi, quick question — I'm trying to set up a new scheduled export from Cascadence into our BI tool, but I don't see where to configure the schedule.</v>
+<v Carla Jimenez>Hi, quick question — I'm trying to set up a new scheduled export from Kumaflow into our BI tool, but I don't see where to configure the schedule.</v>
 
 00:00:12.700 --> 00:00:24.271
 <v Morgan Lee>Happy to walk you through it. Go to the pipeline you want to export from, then click 'Destinations' in the left panel — do you see that?</v>

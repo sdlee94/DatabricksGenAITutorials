@@ -7,7 +7,7 @@ WEBVTT
 <v Alex Chen>I appreciate you telling me directly, Victor. Can I ask what tipped the decision? I want to make sure I understand rather than assume.</v>
 
 00:00:21.543 --> 00:00:38.257
-<v Victor Owusu>Pricing was actually close, close enough that it wasn't the deciding factor. It came down to real-time streaming — we need sub-minute visibility into freight location updates, and from what your team described, Cascadence is fundamentally batch-oriented right now.</v>
+<v Victor Owusu>Pricing was actually close, close enough that it wasn't the deciding factor. It came down to real-time streaming — we need sub-minute visibility into freight location updates, and from what your team described, Kumaflow is fundamentally batch-oriented right now.</v>
 
 00:00:38.957 --> 00:00:53.100
 <v Alex Chen>That's fair, and accurate — real-time streaming isn't something we support today, we're primarily scheduled and event-triggered batch. Did the vendor you chose, Streamline Data I believe you mentioned earlier, offer that natively?</v>

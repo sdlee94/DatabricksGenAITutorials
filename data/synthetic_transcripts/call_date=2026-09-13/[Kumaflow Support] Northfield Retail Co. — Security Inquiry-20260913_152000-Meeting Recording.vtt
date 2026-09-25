@@ -1,10 +1,10 @@
 WEBVTT
 
 00:00:00.000 --> 00:00:15.000
-<v Wes Coleman>Hi Sam, this is Wes from Northfield again. I got a weird email this morning claiming to be from Cascadence billing, asking me to click a link and re-enter our payment info. Is that legitimate?</v>
+<v Wes Coleman>Hi Sam, this is Wes from Northfield again. I got a weird email this morning claiming to be from Kumaflow billing, asking me to click a link and re-enter our payment info. Is that legitimate?</v>
 
 00:00:15.700 --> 00:00:34.557
-<v Sam Patel>Good instinct to check before clicking anything. Before we go further, since this is an account security question, I need to verify it's really you — can you confirm the last four digits of your Cascadence account ID and the phone number on file?</v>
+<v Sam Patel>Good instinct to check before clicking anything. Before we go further, since this is an account security question, I need to verify it's really you — can you confirm the last four digits of your Kumaflow account ID and the phone number on file?</v>
 
 00:00:35.257 --> 00:00:41.257
 <v Wes Coleman>Account ID ends in 4471, and the phone on file should be (614) 555-0177.</v>
@@ -13,10 +13,10 @@ WEBVTT
 <v Sam Patel>That matches what we have, thanks. Okay — can you read me the sender address on that email, not clicking any links?</v>
 
 00:00:52.086 --> 00:00:55.514
-<v Wes Coleman>It says billing-support@cascadence-secure-billing.example, not the domain I'd expect.</v>
+<v Wes Coleman>It says billing-support@kumaflow-secure-billing.example, not the domain I'd expect.</v>
 
 00:00:56.214 --> 00:01:15.929
-<v Sam Patel>Confirmed, that's not a domain we own — our billing communications only ever come from @cascadence.example. This is a phishing attempt, not a real Cascadence email. Please don't click any links, and go ahead and delete it or report it through your internal IT security process.</v>
+<v Sam Patel>Confirmed, that's not a domain we own — our billing communications only ever come from @kumaflow.example. This is a phishing attempt, not a real Kumaflow email. Please don't click any links, and go ahead and delete it or report it through your internal IT security process.</v>
 
 00:01:16.629 --> 00:01:21.771
 <v Wes Coleman>Will do. Should I be worried about anyone getting into our account?</v>

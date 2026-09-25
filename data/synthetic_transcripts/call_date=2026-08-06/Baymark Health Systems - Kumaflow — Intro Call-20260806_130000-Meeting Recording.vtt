@@ -12,26 +12,26 @@ WEBVTT
 00:00:39.386 --> 00:00:52.243
 <v Daniel Okafor>We're onboarding two new regional clinics next year and each one means new interfaces. Our current setup doesn't scale to that without more headcount, which we don't have budget for.</v>
 
-00:00:52.943 --> 00:01:10.943
-<v Alex Chen>Understood. Cascadence Flow can absolutely help there — standardized connectors, and I know healthcare is a big enough vertical for us that we have HIPAA-specific tooling, including BAAs for customers who need PHI handling covered contractually. Is that a requirement for you?</v>
+00:00:52.943 --> 00:01:10.514
+<v Alex Chen>Understood. Kumaflow can absolutely help there — standardized connectors, and I know healthcare is a big enough vertical for us that we have HIPAA-specific tooling, including BAAs for customers who need PHI handling covered contractually. Is that a requirement for you?</v>
 
-00:01:11.643 --> 00:01:18.929
+00:01:11.214 --> 00:01:18.500
 <v Daniel Okafor>Yes, non-negotiable. Anything touching patient data needs a signed BAA and needs to satisfy our security team.</v>
 
-00:01:19.629 --> 00:01:33.771
+00:01:19.200 --> 00:01:33.343
 <v Alex Chen>We can do that. I'd want to bring in our sales engineer, Devon, who's handled healthcare deals before, so we can go deep on the compliance side rather than me guessing at answers.</v>
 
-00:01:34.471 --> 00:01:41.329
+00:01:34.043 --> 00:01:40.900
 <v Daniel Okafor>That'd be useful. I'll also want to bring our security lead, Lena Ward, into that conversation.</v>
 
-00:01:42.029 --> 00:01:53.600
+00:01:41.600 --> 00:01:53.171
 <v Alex Chen>Perfect, let's set that up. Before we do — what's your budget situation? You mentioned headcount constraints, is there capital available for a platform purchase this year?</v>
 
-00:01:54.300 --> 00:02:08.014
+00:01:53.871 --> 00:02:07.586
 <v Daniel Okafor>Honestly, no — our budget for new tooling is frozen until our new fiscal year starts October 1st. I can still evaluate now so we're ready to move once that opens up.</v>
 
-00:02:08.714 --> 00:02:23.714
+00:02:08.286 --> 00:02:23.286
 <v Alex Chen>That's helpful context, thanks for the transparency. Let's do the technical deep dive in the next couple weeks so you're fully evaluated by the time budget opens, and then we can move quickly in October.</v>
 
-00:02:24.414 --> 00:02:26.129
+00:02:23.986 --> 00:02:25.700
 <v Daniel Okafor>That works for me.</v>

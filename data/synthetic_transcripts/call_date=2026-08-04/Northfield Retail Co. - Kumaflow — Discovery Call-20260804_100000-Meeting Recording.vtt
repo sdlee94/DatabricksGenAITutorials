@@ -24,29 +24,29 @@ WEBVTT
 00:01:34.471 --> 00:01:42.614
 <v Priya Nair>We'd want something stable and battle-tested well before mid-October, so we have a few weeks of runway before peak.</v>
 
-00:01:43.314 --> 00:02:04.314
-<v Jordan Ruiz>That's workable. Cascadence Flow handles exactly this — managed connectors for POS and warehouse systems, built-in retry logic, and alerting to Slack or email the moment something fails instead of an hour later. Would it help if I showed you the platform live with a setup close to yours?</v>
+00:01:43.314 --> 00:02:03.886
+<v Jordan Ruiz>That's workable. Kumaflow handles exactly this — managed connectors for POS and warehouse systems, built-in retry logic, and alerting to Slack or email the moment something fails instead of an hour later. Would it help if I showed you the platform live with a setup close to yours?</v>
 
-00:02:05.014 --> 00:02:20.443
+00:02:04.586 --> 00:02:20.014
 <v Priya Nair>Yes, that would help a lot. Can we bring in someone from your side who can speak to the technical architecture? I'll have Wes there too, and I want to understand where our data actually lives.</v>
 
-00:02:21.143 --> 00:02:36.571
+00:02:20.714 --> 00:02:36.143
 <v Jordan Ruiz>Absolutely, I'll loop in Devon, one of our sales engineers — he can go deep on connectors and security. Are you also the economic buyer here, or is there someone else I should be aware of?</v>
 
-00:02:37.271 --> 00:02:44.986
+00:02:36.843 --> 00:02:44.557
 <v Priya Nair>I own the technical decision. Our procurement lead, Greg Hall, gets involved once we're ready to talk contract.</v>
 
-00:02:45.686 --> 00:02:55.543
+00:02:45.257 --> 00:02:55.114
 <v Jordan Ruiz>Perfect, good to know. I'll send a couple of times for next week for the demo — does Tuesday or Wednesday work better?</v>
 
-00:02:56.243 --> 00:02:59.671
+00:02:55.814 --> 00:02:59.243
 <v Priya Nair>Wednesday works. Let's do late morning if possible.</v>
 
-00:03:00.371 --> 00:03:11.086
+00:02:59.943 --> 00:03:10.657
 <v Jordan Ruiz>I'll get that on the calendar. One last question — what are you using today for alerting, if anything, so Devon can tailor the demo?</v>
 
-00:03:11.786 --> 00:03:16.500
+00:03:11.357 --> 00:03:16.071
 <v Wes Coleman>Nothing dedicated. We have a shared inbox that basically nobody checks.</v>
 
-00:03:17.200 --> 00:03:24.486
+00:03:16.771 --> 00:03:24.057
 <v Jordan Ruiz>Noted. We'll make sure to show you what proactive alerting actually looks like. Thanks both, talk soon.</v>
